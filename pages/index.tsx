@@ -1,5 +1,5 @@
 import React, { useLayoutEffect, useRef } from "react";
-import Brain from "@icons/brain.svg";
+import Brain from "@icons/Campus.svg";
 
 /**
  * generates a random HEX color
@@ -25,7 +25,7 @@ export default () => {
       style={{
         display: "flex",
         alignItems: "center",
-        flexDirection: "column"
+        flexDirection: "column",
       }}
     >
       <Brain width="50" ref={ref} />
