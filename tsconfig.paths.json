@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@root/*": [
+        "./*"
+      ],
+      "@root": [
+        "./"
+      ],
+      "@assets/*": [
+        "./public/assets/*"
+      ],
+      "@assets": [
+        "./public/assets/"
+      ],
+      "@icons/*": [
+        "./public/assets/icons/*"
+      ],
+      "@icons": [
+        "./public/assets/icons"
+      ],
+    }
+  }
+}
